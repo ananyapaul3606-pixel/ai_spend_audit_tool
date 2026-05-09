@@ -10,5 +10,6 @@ api_router = APIRouter()
 api_router.include_router(health_router, tags=["health"])
 api_router.include_router(audit_router, tags=["audit"])
 api_router.include_router(report_router, tags=["report"])
+api_router.include_router(leads_router, tags=["leads"])
 
 
