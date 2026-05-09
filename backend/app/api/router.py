@@ -9,4 +9,6 @@ from app.api.routes.share import router as share_router
 api_router = APIRouter()
 api_router.include_router(health_router, tags=["health"])
 api_router.include_router(audit_router, tags=["audit"])
+api_router.include_router(report_router, tags=["report"])
+
 
