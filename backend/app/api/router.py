@@ -12,5 +12,3 @@ api_router.include_router(audit_router, tags=["audit"])
 api_router.include_router(report_router, tags=["report"])
 api_router.include_router(leads_router, tags=["leads"])
 api_router.include_router(share_router, tags=["share"])
-
-
