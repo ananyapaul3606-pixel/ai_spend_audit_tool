@@ -18,6 +18,7 @@ def create_app() -> FastAPI:
         CORSMiddleware,
         allow_origins=[
         "http://localhost:5173",
+        "https://ai-spend-audit-tools.netlify.app"
     ],
         allow_credentials=True,
         allow_methods=["*"],
